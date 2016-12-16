@@ -33,10 +33,3 @@ test:
         allow_failures: true
     grunt:
         task: "build"
-
-complete:
-    mysql:
-        host: "localhost"
-        user: "root"
-        pass: ""
-        - "DROP DATABASE IF EXISTS test;"
