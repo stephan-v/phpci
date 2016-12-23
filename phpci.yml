@@ -14,9 +14,6 @@ test:
     allowed_warnings: 10
     skip_classes: true
 
-  pdepend:
-        directory: "src"
-
 setup:
   composer:
     action: "install"
