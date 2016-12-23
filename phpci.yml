@@ -6,10 +6,6 @@ build_settings:
 test:
   php_loc:
     directory: "src"
-  php_unit:
-    config:
-        - "phpunit.xml"
-    path: "tests/"
 
 setup:
   composer:
